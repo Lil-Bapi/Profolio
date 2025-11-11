@@ -1,0 +1,18 @@
+:root {
+  --font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-buttons button {
+  margin-left: 10px;
+  font-family: var(--font-family);
+  cursor: pointer;
+}
